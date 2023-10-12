@@ -1,0 +1,51 @@
+main {
+    padding-top: 130px;
+}
+
+.banner {
+    background-color: #F9DB79;
+    background-image: url(../../../public/assets/banner-home.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 600px;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: 800;
+    text-shadow: 5px 5px 2px darkslategray;
+}
+
+.foto-resto {
+    display: none;
+}
+
+.divisao {
+    display: flex;
+    flex-direction: column;
+}
+
+.divisao img {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+}
+
+.txt-divisao {
+    padding: 100px 30px;
+}
+.txt-divisao h2 {
+    font-size: 2.3em;
+}
+.txt-divisao span {
+    font-style: italic;
+    font-weight: bold;
+}
+.txt-divisao p {
+    margin: 50px auto;
+    max-width: 200px;
+}

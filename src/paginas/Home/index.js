@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "../../componentes/Header";
+import Footer from "../../componentes/Footer";
+import './style.css'
 
 export default function Home() {
     return (
         <div>
             <Header/>
-
             <main>
                 <section className="banner">
                     <h1>SORVETE ARTESANAL</h1>
@@ -20,12 +21,13 @@ export default function Home() {
                     </div>
                 </section>
                 <section className="divisao">
+                    <img className="foto-celular" src="/assets/eventos-image.jpg" alt="Sorvetes"/>
                     <div className="txt-divisao">
                         <h2>NOSSOS EVENTOS</h2>
                         <span>Delicias com sorvete!</span>
                         <p>Mais do que uma sorveteria, uma extensão da sua casa! Estamos aqui prontinhos para te atender e oferecer os melhores eventos com os melhores sorvete da sua vida! Venha nos conhecer e passar um tempo aqui com a gente.</p>
                     </div>
-                    <img src="/assets/eventos-image.jpg" alt="Sorvetes"/>
+                    <img className="foto-resto" src="/assets/eventos-image.jpg" alt="Sorvetes"/>
                 </section>
                 <section className="divisao">
                     <img src="/assets/sobre-image.jpg" alt="Sorvetes"/>
@@ -36,6 +38,7 @@ export default function Home() {
                     </div>
                 </section>
             </main>
+            <Footer />
         </div>
 
     )
