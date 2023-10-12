@@ -1,0 +1,44 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    height: 600px;
+}
+
+.rodape-cima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 70%;
+}
+
+.rodape-cima img{
+    width: 80px;
+}
+
+.informacoes {
+    font-size: 18px;
+}
+.informacoes a, .rodape-baixo a  {
+    color: white;
+    text-decoration: none;
+}
+.informacoes p a:hover, .rodape-baixo a:hover {
+    text-decoration: underline;
+}
+
+.rodape-baixo {
+    padding: 5px;
+    font-size: 18px;
+}
+
+@media screen and (min-width:768px) {
+    .rodape-cima {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

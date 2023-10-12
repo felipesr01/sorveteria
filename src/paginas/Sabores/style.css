@@ -1,0 +1,78 @@
+.sabores{
+    padding-top: 130px;
+}
+
+.banner-sabores {
+    background-image: url(../../../public/assets/banner-sabores.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 600px;
+}
+
+.banner-sabores h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: 800;
+    text-shadow: 5px 5px 2px darkslategray;
+}
+
+h2 {
+    margin-top: 90px;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.area-produtos {
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex: 1 1 auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+    padding: 30px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.212);
+    border-radius: 3px;
+}
+.card img {
+    width: 200px;
+    margin: auto;
+}
+
+@media screen and (min-width:436px) {
+    .sabores {
+        padding-top: 100px;
+    }
+    .card {
+        max-width: 400px;
+    }
+    .card img {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .area-produtos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        max-width: 1200px;
+        margin: auto;
+    }
+    .card {
+        height: 500px;
+        width: 350px;
+    }
+}

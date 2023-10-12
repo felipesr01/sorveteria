@@ -49,3 +49,33 @@ main {
     margin: 50px auto;
     max-width: 200px;
 }
+
+
+@media screen and (min-width:436px) {
+    main {
+        padding-top: 100px;
+    }
+    .txt-divisao p {
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .divisao {
+        flex-direction: row;
+    }
+    .foto-resto {
+        display: block;
+    }
+    .foto-celular {
+        display: none;
+    }
+    .divisao img {
+        width: 50%;
+        box-shadow: none;
+        flex: 1 1 auto;
+    }
+    .txt-divisao {
+        width: 50%;
+    }
+}
